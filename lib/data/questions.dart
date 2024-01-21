@@ -1,5 +1,4 @@
 import '../models/quiz_question.dart';
-import 'models/quiz_question.dart';
 
  const questions = [
   QuizQuestion(
