@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AnswerButton extends StatelessWidget{
   const AnswerButton({required this.answerText,required this.onTap,super.key});
@@ -24,7 +25,10 @@ class AnswerButton extends StatelessWidget{
 
 
 
-        child:Text(answerText));
+        child:Text(
+          answerText,
+          textAlign: TextAlign.center,
+        ));
 
   }
 }
